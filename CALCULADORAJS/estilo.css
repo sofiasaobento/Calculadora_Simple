@@ -1,0 +1,50 @@
+#Calc {
+    height: 460px;
+    width: 300px;
+    border: px solid black;
+    border-radius: 5px;
+}
+
+#Calc form {
+    height: 430px;
+    width: 100%;
+    background-color: rgb(121, 116, 116);
+    padding: 12px;
+}
+
+#Calc input[type=textfield] {
+    width: 90%;
+    height: 22%;
+    cursor: default;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: right;
+    font-size: 50px;
+    border: 0;
+    outline: none;
+}
+
+#Calc input[type=button], input[type=reset] {
+    width: 22%;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    color: black;
+    padding: 18px;
+    margin: 3px;
+    border: 0;
+    border-radius: 100%;
+}
+
+#Calc .orange {
+    background-color: orange !important;
+    color: white !important;
+}
+
+#Calc .gray {
+    background-color: rgb(83, 81, 77) !important;
+    color: white !important;
+}
